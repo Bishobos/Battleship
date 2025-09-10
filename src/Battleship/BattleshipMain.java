@@ -15,6 +15,10 @@ public class BattleshipMain {
             System.out.println("You've shot " + shots + " times!");
 
         }
+        if (shots>4){
+            System.out.println("Such a waste of ammo...");
+        }
+
         System.out.println("\n=== Congratulations, you've won! ===");
         }
     }

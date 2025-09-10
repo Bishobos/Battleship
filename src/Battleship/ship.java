@@ -24,9 +24,9 @@ public class ship {
         if(hit){
             this.placement[userInput] = false;
             this.hits++;
-            System.out.println("You hit!");
+            System.out.println("\u058D You hit! \u058E");
         }if(!hit){
-            System.out.println("You missed!");
+            System.out.println("\u2205 You missed! \u2205");
         }
 
     }
